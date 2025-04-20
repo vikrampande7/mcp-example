@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+        "playwright": {
+            "command": "npx",
+            "args": [
+                "@playwright/mcp@latest"
+            ]
+        },
+        "job-search": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "job-searchoor"
+            ]
+        },
+        "airbnb": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@openbnb/mcp-server-airbnb",
+                "--ignore-robots-txt"
+            ]
+        }
+    }
+}
